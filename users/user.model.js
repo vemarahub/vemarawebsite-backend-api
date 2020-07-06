@@ -7,6 +7,7 @@ const schema = new Schema({
     hash: { type: String, required: true },
     firstName: { type: String, required: true },
     lastName: { type: String, required: true },
+    admin: { type: Boolean, required: true,default:false },
     createdDate: { type: Date, default: Date.now }
 });
 
